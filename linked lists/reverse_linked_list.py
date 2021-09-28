@@ -79,4 +79,29 @@ root = createLinkedListByList(x)
 
 root.print_list()
 
-root.reverseList(0,5)
+# root.reverseList(0,5)
+
+# better answer
+
+def reverseList(L,s,f):
+    dummyHead = Node(0)
+    dummyHead.next = L
+
+    itrH = dummyHead
+    
+    for _ in range(1,s):
+        itrH = itrH.next
+    
+
+    i = itrH.next
+    for _ in range(f-s):
+        temp = i.next
+        temp.next
+        temp.next, itrH.next , i.next = itrH.next,temp,temp.next
+    return dummyHead.next
+
+reverseList(root,0,8).print_list()
+
+    
+
+
