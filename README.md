@@ -56,7 +56,7 @@
 ## 4. Linked Lists
 
 1. [x] Merge two sorted lists
-2. [ ] Reverse a single sublist
+2. [x] Reverse a single sublist
 3. [ ] Test for cyclicity
 4. [ ] Test for overlapping lists-lists are cycle-free
 5. [ ] Test for overlapping lists-lists may have cycles
