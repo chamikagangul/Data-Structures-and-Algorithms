@@ -71,7 +71,7 @@
 
 ## 5. Stacks and Queues
 
-1. [ ] Implement a stack with max API
+1. [x] Implement a stack with max API
 1. [ ] Evaluate RPN expressions
 1. [ ] Test a string over "l,l,(,),1,f" for well-formedness
 1. [ ] Normalize pathnames
