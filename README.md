@@ -6,7 +6,7 @@
 1. [x] Swap bits
 1. [x] Reverse bits
 1. [x] Find a closest integer with the same weight
-1. [ ] Compute x*y without arithmetical operators
+1. [x] Compute x*y without arithmetical operators
 1. [ ] Compute x/y
 1. [ ] Compute x^y
 1. [ ] Reverse digits .
