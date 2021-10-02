@@ -20,7 +20,7 @@
 1. [x] Increment an arbitrary-precision integer
 1. [x] Multiply two arbitrary-precision integers
 1. [x] Advancing through an array
-1. [ ] Delete duplicates from a sorted array .
+1. [x] Delete duplicates from a sorted array .
 1. [ ] Buy and sell a stock once
 1. [ ] Buy and sell a stock twice
 1. [ ] Computing an altemation
