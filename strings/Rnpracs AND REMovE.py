@@ -1,20 +1,21 @@
-x = ['a','c','d','b','b','c','a']
+X = ['a','c','d','b','b','c','a']
 
-a =
-i=0
-while(i<len(x)):
-    if(x[i] == 'b'):
-        j = i+1
-        while(j<len(x)):
-            if(x[j] == 'b'):
-                j+=1
-            else:
-                break
-        # else:
-        #     break
-            
-        x[i:j-len(x)] = x[j:]
-    i+=1
 
-    if()
-print(x)
+
+def replaceAndRemove(X):
+    i=0
+    Tlength = len(X)
+    for x in X:
+        if(x=='a'):
+            Tlength+=1
+
+
+        X[i] = x
+        if(x=='b'):
+            Tlength-=1
+        else:
+            i+=1
+    print(X,i)
+    return X
+
+replaceAndRemove(X)
