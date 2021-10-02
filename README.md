@@ -42,7 +42,7 @@
 1. [x] Interconvert strings and integers
 1. [x] Base conversion
 1. [x] Compute the spreadsheet column encoding .
-1. [ ] Replace and remove
+1. [x] Replace and remove
 1. [ ] Testpalindromicity
 1. [ ] Reverse all the words in a sentence
 1. [ ] Compute all mnemonics for a phone number
