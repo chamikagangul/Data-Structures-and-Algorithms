@@ -57,7 +57,7 @@
 
 1. [x] Merge two sorted lists
 2. [x] Reverse a single sublist
-3. [ ] Test for cyclicity
+3. [x] Test for cyclicity
 4. [ ] Test for overlapping lists-lists are cycle-free
 5. [ ] Test for overlapping lists-lists may have cycles
 6. [ ] Delete a node from a singly linked list
