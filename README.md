@@ -43,7 +43,7 @@
 1. [x] Base conversion
 1. [x] Compute the spreadsheet column encoding .
 1. [x] Replace and remove
-1. [ ] Testpalindromicity
+1. [x] Test palindromicity
 1. [ ] Reverse all the words in a sentence
 1. [ ] Compute all mnemonics for a phone number
 1. [ ] The look-and-say problem
