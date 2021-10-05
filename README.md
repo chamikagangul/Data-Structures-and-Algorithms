@@ -22,7 +22,7 @@
 1. [x] Advancing through an array
 1. [x] Delete duplicates from a sorted array .
 1. [x] Buy and sell a stock once
-1. [ ] Buy and sell a stock twice
+1. [x] Buy and sell a stock twice
 1. [ ] Computing an altemation
 1. [ ] Enumerate all primes to n
 1. [ ] Permute the elements of an array .
