@@ -21,7 +21,6 @@ class Node:
         node.next = node.next.next
 
     def print_list(self):
-        input()
         if(self == None ):
             return
         else:
@@ -51,6 +50,22 @@ def createLinkedListByList(L,i_):
         count+=1
     return n
 
+def joinLists(L1,L2,n):
+
+    r1,r2 = L1,L2
+    while(L1.next):
+        
+        L1 = L1.next
+    
+    for i in range(n):
+        L2 = L2.next
+    L1.next = L2
+
+    print(L2.data)
+
+    return r1,r2
+
+
 def isCyclic(LL):
     def getCycleLength(node):
         x = node.next
@@ -65,7 +80,7 @@ def isCyclic(LL):
     while(slow!=fast):
         # print("isCyclic- ",slow,fast)
         if(fast == None):
-            return None
+            return False
 
         fast = fast.next
         if(go):
@@ -82,19 +97,43 @@ def isCyclic(LL):
         itr1,itr2 = itr1.next,itr2.next
     return itr1
 
+    
+def checkForOverlappingWithLoops(L1,L2):
+    enteringNode1 = isCyclic(L1)
+    enteringNode2 = isCyclic(L2)
+    n2 = enteringNode2
 
+    
+    if(enteringNode1):
+        while(enteringNode1!=n2):
+            
+            n2 = n2.next
+            if(enteringNode2 == n2):
+                return None
+        else:
+            return enteringNode1,enteringNode2
+    else:
+        return False
+            
 
 
 L1 = [randint(0, 1000) for _ in range(10)]
+L2 = [randint(0, 1000) for _ in range(10)]
 
-print(L1,)
-L1 = createLinkedListByList(L1,3)
+print(L1)
+print(L2)
 
 
-print(isCyclic(L1))
-# L1.print_list()
+L1 = createLinkedListByList(L1,-1)
+L2 = createLinkedListByList(L2,2)
 
-# L1.print_list()
+L1,L2 = joinLists(L1,L2,7)
+print(L1,L2)
+
+A,B = checkForOverlappingWithLoops(L1,L2)
+print(A,B)
+
+
 
 
 
