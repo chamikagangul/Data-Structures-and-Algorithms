@@ -59,7 +59,7 @@
 2. [x] Reverse a single sublist
 3. [x] Test for cyclicity
 4. [x] Test for overlapping lists-lists are cycle-free
-5. [ ] Test for overlapping lists-lists may have cycles
+5. [x] Test for overlapping lists-lists may have cycles
 6. [ ] Delete a node from a singly linked list
 7. [ ] Remove the kth last element from a list 
 8. [ ] Remove duplicates from a sorted list
