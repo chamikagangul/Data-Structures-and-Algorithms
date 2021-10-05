@@ -52,7 +52,6 @@ def createLinkedListByList(L,i_):
     return n
 
 def isCyclic(LL):
-    
     def getCycleLength(node):
         x = node.next
         count = 1
@@ -60,15 +59,13 @@ def isCyclic(LL):
             x = x.next
             count+=1
         return count
-
-    
     slow = LL
     fast = LL.next
     go = False
     while(slow!=fast):
         # print("isCyclic- ",slow,fast)
         if(fast == None):
-            break
+            return None
 
         fast = fast.next
         if(go):
