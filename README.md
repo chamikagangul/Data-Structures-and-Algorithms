@@ -44,7 +44,7 @@
 1. [x] Compute the spreadsheet column encoding .
 1. [x] Replace and remove
 1. [x] Test palindromicity
-1. [ ] Reverse all the words in a sentence
+1. [x] Reverse all the words in a sentence
 1. [ ] Compute all mnemonics for a phone number
 1. [ ] The look-and-say problem
 1. [ ] Convert from Roman to decimal
