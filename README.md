@@ -73,7 +73,7 @@
 
 1. [x] Implement a stack with max API
 1. [x] Evaluate RPN expressions
-2. [ ] Test a string over "{,},(,),[,]" for well-formedness
+2. [x] Test a string over "{,},(,),[,]" for well-formedness
 3. [ ] Normalize pathnames
 4. [ ] Compute buildings with a sunset view .
 5. [ ] Compute binary tree nodes in order of increasing depth
