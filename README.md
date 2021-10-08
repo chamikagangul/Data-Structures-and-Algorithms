@@ -73,13 +73,13 @@
 
 1. [x] Implement a stack with max API
 1. [x] Evaluate RPN expressions
-1. [ ] Test a string over "l,l,(,),1,f" for well-formedness
-1. [ ] Normalize pathnames
-1. [ ] Compute buildings with a sunset view .
-1. [ ] Compute binary tree nodes in order of increasing depth
-1. [ ] Implement a circular queue
-1. [ ] Implement a queue using stacks
-1. [ ] Implement a queue with max API
+2. [ ] Test a string over "{,},(,),[,]" for well-formedness
+3. [ ] Normalize pathnames
+4. [ ] Compute buildings with a sunset view .
+5. [ ] Compute binary tree nodes in order of increasing depth
+6. [ ] Implement a circular queue
+7. [ ] Implement a queue using stacks
+8. [ ] Implement a queue with max API
 
 ## 6. BinaryTrees
 1. [ ] Test if a binary tree is height-balanced
