@@ -82,8 +82,8 @@
 8. [ ] Implement a queue with max API
 
 ## 6. BinaryTrees
-1. [ ] Test if a binary tree is height-balanced
-2. [ ] Test if a binary tree is symmetric
+1. [x] Test if a binary tree is height-balanced
+2. [x] Test if a binary tree is symmetric
 3. [ ] Compute the lowest common ancestor in a binary tree .
 4. [ ] Compute the LCA when nodes have parent pointers
 5. [ ] Sum the root-to-leaf paths in a binary tree
