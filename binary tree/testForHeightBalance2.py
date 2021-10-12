@@ -23,31 +23,32 @@ def createTree(X):
     # print(n,X)
     return n
 balanced = True
-def isBalanced(root):
-    def tree_traversal(root):         
+def isBalanced(root,k):
+    def tree_traversal(root,k):         
         if(root):
             # print(count,root)
-            leftHeight,Lbalaced = tree_traversal(root.left)
-            rightHeight,Rbalaced = tree_traversal(root.right)
-            if(Lbalaced and Rbalaced and abs(leftHeight-rightHeight)<=0):
+            leftHeight,Lbalaced = tree_traversal(root.left,k)
+            rightHeight,Rbalaced = tree_traversal(root.right,k)
+            if(Lbalaced and Rbalaced and abs(leftHeight-rightHeight)<=k):
                 return max(leftHeight,rightHeight)+1, True
             else:
                 # print(root,leftHeight,Lbalaced,rightHeight,Rbalaced)
-                return 0,False
+                return max(leftHeight,rightHeight),False
         else:
             return 0,True
 
             # print(count)
-    return tree_traversal(root)
+    return tree_traversal(root,k)
 
 
-X = "ABCDEFGHIJKLMNO"
+X = "ABCDEFGHIJKLMNOPQRSTUVWXYZ12345"
 X = list(X)
 
 root = createTree(X)
-# root.left.right = None
+root.left = None
+# root.left.right.right = None
 utils.print_tree(root)
 
-print(isBalanced(root))
+print(isBalanced(root,1))
 
 
