@@ -24,7 +24,7 @@
 1. [x] Buy and sell a stock once
 1. [x] Buy and sell a stock twice
 1. [x] Computing an altemation
-1. [ ] Enumerate all primes to n
+1. [x] Enumerate all primes to n
 1. [ ] Permute the elements of an array .
 1. [ ] Compute the next permutation
 1. [ ] Sample offline data
