@@ -75,7 +75,7 @@
 1. [x] Evaluate RPN expressions
 2. [x] Test a string over "{,},(,),[,]" for well-formedness
 3. [x] Normalize pathnames
-4. [ ] Compute buildings with a sunset view .
+4. [x] Compute buildings with a sunset view .
 5. [ ] Compute binary tree nodes in order of increasing depth
 6. [ ] Implement a circular queue
 7. [ ] Implement a queue using stacks
