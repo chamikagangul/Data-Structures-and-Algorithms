@@ -1,5 +1,34 @@
 import utils
 
+
+class Queue:
+
+    def __init__(self):
+        self.array = []
+
+    def __init__(self,array):
+        self.array = array
+
+    def __str__(self) -> str:
+        return str(self.array)
+
+    def empty(self):
+        return len(self.array)==0
+
+    def pop(self):
+        if not self.empty():
+            rslt = self.array[0]
+            self.array = self.array[1:]
+            return rslt
+        else:
+            return None
+
+    def push(self,e):
+        self.array.append(e)
+
+    def len(self):
+        return len(self.array)
+
 class Node:
     def __init__(self,data=None,left=None,right=None) -> None:
         super().__init__()
@@ -28,27 +57,37 @@ def createTree1():
     root.left = Node(6)
     root.right = Node(6)
 
-    root.left.right = Node(2)
-    # root.left.left = Node(4)
+    root.left.left = Node(271)
+    root.left.right = Node(561)
+    
     root.right.left = Node(2)
+    root.right.right = Node(271)
+    root.right.right.right = Node(28)
+
+    root.left.left.left = Node(28)
+    root.left.left.right = Node(0)
 
     root.left.right.right = Node(3)
-    root.right.left.left = Node(3)
+    root.left.right.right.left = Node(17)
+
+    root.right.left.right = Node(1)
+    root.right.left.right.left = Node(401)
+    root.right.left.right.left.right = Node(641)
+    root.right.left.right.right = Node(257)
+
     return root
 
-def checkForSymmetric(root):
-    def isMirror(n1,n2):
-        # print(n1,n2)
-        if(n1 and n2):
-            return n1.data == n2.data and isMirror(n1.left,n2.right) and isMirror(n1.right,n2.left)
-        elif(n1 == None and n2==None):
-            return True
-        else:
-            return False
 
-    return isMirror(root.left,root.right)
+def findLevels(root):
+    rslt = []
+    current = [root]
+    while(len(current)):
+        rslt.append([c.data for c in current])
+        current = [child for c in current for child in (c.left,c.right) if child]
+    
+    return rslt
         
-
+# <<314>, <6,6), <271,561,2,271>, <28,0,3,1,28>, <17,401.,257>, (641))
 
 if __name__ == "__main__":
     
@@ -56,4 +95,4 @@ if __name__ == "__main__":
     # root.left = None
     utils.print_tree(root)
 
-    print(checkForSymmetric(root))
+    print(findLevels(root))
