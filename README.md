@@ -85,9 +85,9 @@
 1. [x] Test if a binary tree is height-balanced
 2. [x] Test if a binary tree is symmetric
 3. [x] Compute the lowest common ancestor in a binary tree .
-4. [ ] Compute the LCA when nodes have parent pointers
-5. [ ] Sum the root-to-leaf paths in a binary tree
-6. [ ] Find a root to leaf path with specified sum
+4. [x] Compute the LCA when nodes have parent pointers
+5. [x] Sum the root-to-leaf paths in a binary tree
+6. [x] Find a root to leaf path with specified sum
 7. [ ] Implement an inorder traversal without recursion
 8. [ ] Implement a preorder traversal without recursion
 9. [ ] Compute the kth node in an inorder traversal
