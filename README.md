@@ -100,7 +100,7 @@
 16. [ ] Compute the right sibling tree
 
 ## 7. Heaps
-1. [ ] Merge sorted files
+1. [x] Merge sorted files
 2. [ ] Sort an increasing-decreasing array 
 3. [ ] Sort an almost-sorted array
 4. [ ] Compute the k closest stars 
