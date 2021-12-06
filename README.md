@@ -102,7 +102,7 @@
 ## 7. Heaps
 1. [x] Merge sorted files
 2. [x] Sort an increasing-decreasing array 
-3. [ ] Sort an almost-sorted array
+3. [x] Sort an almost-sorted array
 4. [ ] Compute the k closest stars 
 5. [ ] Compute the median of online data 
 6. [ ] Compute the k largest elements in a max-heap
