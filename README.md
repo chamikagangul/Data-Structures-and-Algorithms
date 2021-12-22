@@ -108,8 +108,8 @@
 6. [ ] Compute the k largest elements in a max-heap
 
 ## 8. Searching
-1. [ ] Search a sorted array for first occurrence ofk
-2. [ ] Search a sorted array for entry equal to its index
+1. [x] Search a sorted array for first occurrence ofk
+2. [x] Search a sorted array for entry equal to its index
 3. [ ] Search a cyclically sorted array
 4. [ ] Compute the integer square root
 5. [ ] Compute the real square root
