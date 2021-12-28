@@ -135,7 +135,7 @@
 1. [ ] Implement a hash function for chess
 
 ## 10. Sorting
-1. [ ] Compute the intersection of two sorted arrays
+1. [x] Compute the intersection of two sorted arrays
 2. [ ] Merge two sorted arrays
 3. [ ] Remove first-name duplicates
 4. [ ] Smallestnonconstructiblevalue
