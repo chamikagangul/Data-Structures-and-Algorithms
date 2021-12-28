@@ -149,7 +149,7 @@
 
 
 
-## 11. Binary Search Tiees
+## 11. Binary Search Trees
 1. [ ] Test if a binary tree satisfies the BST property . . . .
 2. [ ] Find the first key greater than a given value in a BST
 3. [ ] Find the k largest elements in a BST
