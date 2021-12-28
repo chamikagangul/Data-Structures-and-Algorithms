@@ -121,7 +121,7 @@
 
 ## 9. Hash Tables
 
-1. [ ] Test for palindromic permutations
+1. [x] Test for palindromic permutations
 1. [ ] Is an anonymous letter constructible?
 1. [ ] Implement an ISBN cache
 1. [ ] Compute the LCA, optimizing for close ancestors
