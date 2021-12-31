@@ -19,4 +19,6 @@ class BST:
                     self.left.insert(data)
         else:
             self.data = data
+    def __str__(self) -> str:
+        return str(self.left.data if self.left else "None" )+ " " + str(self.data)+" " + str(self.right.data if self.right else "None")
 
