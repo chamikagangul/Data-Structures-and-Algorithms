@@ -163,7 +163,7 @@
 11. [ ] Add credits
 
 ## 12. Recursion
-1. [ ] The Towers of Hanoi problem
+1. [x] The Towers of Hanoi problem
 2. [ ] Generate all nonattacking placements of ,4-Queens
 3. [ ] Generatepermutations
 4. [ ] Generate the power set
