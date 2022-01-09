@@ -175,8 +175,8 @@
 10. [ ] Compute a Gray code
 
 ## 13. Dynamic Programming
-1. [ ] Count the number of score combinations
-2. [ ] Compute the Levenshtein distance
+1. [x] Count the number of score combinations
+2. [x] Compute the Levenshtein distance
 3. [ ] Count the number of ways to traverse a2D array .
 4. [ ] Compute the binomial coefficients
 5. [ ] Search for a sequence in a 2D array
