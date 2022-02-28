@@ -164,7 +164,7 @@
 
 ## 12. Recursion
 1. [x] The Towers of Hanoi problem
-2. [ ] Generate all nonattacking placements of ,4-Queens
+2. [x] Generate all nonattacking placements of ,4-Queens
 3. [ ] Generatepermutations
 4. [ ] Generate the power set
 5. [ ] Generate all subsets of size k . . . .
